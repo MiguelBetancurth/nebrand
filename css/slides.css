@@ -23,14 +23,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, hr, bl
   padding: 0;
 }
 
-/*<!------------------------------------GRACIAS DIOSSSSS->
-
+/*Inicia el header del video*/
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
+  height: 100%;
   min-height: 25rem;
   width: 100%;
+    
   overflow: hidden;
 }
 
@@ -61,21 +61,20 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.0;
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
+/*@media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('https://source.unsplash.com/XT5OInaElMw/900') black no-repeat center center scroll;
   }
   header video {
     display: none;
   }
-}
+}*/
 
-
-<!------------------------------------GRACIAS DIOSSSSS->*/
+/*Termina el header del video*/
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
@@ -2125,7 +2124,7 @@ html.mobile .showForMobileInline {
   bottom: 0;
   height: 100%;
   z-index: 100;
-  padding: 70px 4%;
+  padding: 70px 5%;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.5s;
@@ -2141,7 +2140,7 @@ html.mobile .showForMobileInline {
   }
 }
 .page-loaded .side {
-  opacity: 1;
+  opacity: 5;
 }
 .side.large {
   padding: calc(5.56% + 50px) 5%;
